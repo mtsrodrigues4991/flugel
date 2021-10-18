@@ -1,0 +1,7 @@
+The main.tf file creates an S3 bucket on the AWS platform
+
+In the S3 bucket created, there are 2 .txt files
+
+when you open the txt files, they show the date and time they were opened
+
+the terratest_test.go file tests the main.tf file, verifying that the creation of bucket S3 was done correctly
